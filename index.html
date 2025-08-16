@@ -20,7 +20,9 @@
     nav a:hover {color: #38bdf8;}
     section {max-width: 1100px; margin: 60px auto; padding: 0 20px;}
     h2 {font-size: 2.2rem; border-bottom: 2px solid #38bdf8; padding-bottom: 10px; margin-bottom: 30px;}
-    .about, .skills, .projects, .contact {display: flex; flex-wrap: wrap; gap: 25px; align-items: flex-start;}
+    .about, .skills, .projects, .contact, .certifications, .education, .languages {
+      display: flex; flex-wrap: wrap; gap: 25px; align-items: flex-start;
+    }
     .about img {width: 280px; border-radius: 12px; border: 5px solid #38bdf8;}
     .about div {flex: 1; font-size: 1.1rem; line-height: 1.8;}
     .skills div, .projects div {
@@ -29,6 +31,8 @@
     }
     .skills div img, .projects div img {height: 60px; margin-bottom: 12px;}
     .projects div img {width: 100%; height: 160px; object-fit: cover; border-radius: 8px;}
+    ul {padding-left: 20px;}
+    li {margin-bottom: 8px;}
     footer {text-align: center; padding: 50px 0; color: #94a3b8; font-size: 0.9rem;}
     .button {
       display: inline-block; background: linear-gradient(to right, #0ea5e9, #38bdf8);
@@ -50,6 +54,8 @@
   <a href="#about">About</a>
   <a href="#skills">Skills</a>
   <a href="#projects">Projects</a>
+  <a href="#certifications">Certifications</a>
+  <a href="#education">Education</a>
   <a href="#contact">Contact</a>
 </nav>
 
@@ -58,8 +64,7 @@
   <div class="about">
     <img src="https://source.unsplash.com/300x300/?developer" alt="Mohit Verma">
     <div>
-      <p>Hello! I'm Mohit Verma, a passionate software developer with full-stack development experience and specialization in .NET technologies, backend integration, and responsive UI development. I’ve completed training at Accenture across App Development, Cloud (AWS), Databases (MySQL, SQL), and AI/ML. I also bring expertise in Prompt Engineering and GenAI API integration.</p>
-      <p>Currently working at BE Sportify, where I develop real-time sports analytics dashboards using CI, SQL Server, and DevExpress.</p>
+      <p>Hello! I'm Mohit Verma, a passionate software developer with full-stack experience and specialization in .NET technologies, backend integration, and responsive UI. At BE Sportify, I built real-time analytics dashboards with DevExpress and SQL. I also trained at Accenture across App Development, Cloud (AWS), GenAI, Prompt Engineering, and Python-MySQL stacks.</p>
       <a href="https://drive.google.com/uc?export=download&id=1bze5ari1eQsQ11wKEGymM5kUg6Q4s8Nc" class="button">Download Resume</a>
     </div>
   </div>
@@ -70,11 +75,11 @@
   <div class="skills">
     <div><img src="https://img.icons8.com/ios/100/html-5.png" alt="HTML"><p>HTML5</p></div>
     <div><img src="https://img.icons8.com/ios/100/css3.png" alt="CSS"><p>CSS3</p></div>
-    <div><img src="https://img.icons8.com/ios/100/javascript.png" alt="JS"><p>JavaScript</p></div>
-    <div><img src="https://img.icons8.com/ios/100/c-sharp-logo.png" alt="C#"><p>C#.NET</p></div>
-    <div><img src="https://img.icons8.com/ios/100/sql.png" alt="SQL"><p>SQL Server</p></div>
-    <div><img src="https://img.icons8.com/ios/100/cloud.png" alt="Cloud"><p>AWS & GenAI</p></div>
-    <div><img src="https://img.icons8.com/ios/100/api-settings.png" alt="API"><p>DevExpress / APIs</p></div>
+    <div><img src="https://img.icons8.com/ios/100/javascript.png" alt="JS"><p>JavaScript, AJAX</p></div>
+    <div><img src="https://img.icons8.com/ios/100/c-sharp-logo.png" alt="C#"><p>C#.NET, VB.NET</p></div>
+    <div><img src="https://img.icons8.com/ios/100/sql.png" alt="SQL"><p>SQL Server, MySQL</p></div>
+    <div><img src="https://img.icons8.com/ios/100/cloud.png" alt="Cloud"><p>AWS, GenAI APIs</p></div>
+    <div><img src="https://img.icons8.com/ios/100/api-settings.png" alt="DevExpress"><p>DevExpress, jQuery</p></div>
   </div>
 </section>
 
@@ -84,14 +89,38 @@
     <div>
       <img src="https://source.unsplash.com/600x400/?cricket,stats" alt="Cricket Stat System">
       <h3>Cricket Stat System</h3>
-      <p>Developed an analytics dashboard to monitor match stats and player KPIs. Integrated DevExpress UI components and SQL backend for real-time reporting.</p>
+      <p>Analytics dashboard for match stats and KPIs. Integrated DevExpress UI and SQL for real-time updates.</p>
     </div>
     <div>
       <img src="https://source.unsplash.com/600x400/?login,security" alt="Login System">
       <h3>Login & Registration Portal</h3>
-      <p>Built a secure login system using JavaScript, AJAX, and SQL Server for seamless user management.</p>
+      <p>Built a secure login portal using JS, AJAX, and SQL Server with full backend integration.</p>
     </div>
   </div>
+</section>
+
+<section id="certifications">
+  <h2>Certifications</h2>
+  <ul>
+    <li>AWS Cloud Practitioner (CLF-C01)</li>
+    <li>Java Full Stack – Wipro TalentNext</li>
+    <li>GenAI for Delivery Practitioners – Accenture</li>
+    <li>Prompt Engineering – Accenture</li>
+    <li>GenAI & ML – Accenture</li>
+    <li>Generative AI APIs – Accenture</li>
+    <li>DevOps Practice School – Accenture</li>
+    <li>Career Edge: Python, MySQL, AWS – TCS</li>
+    <li>Professional Development Learning – Accenture</li>
+  </ul>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <ul>
+    <li><strong>B.Tech</strong> – Acropolis Institute of Technology, Indore (2020–2024) | CGPA: 7.51</li>
+    <li><strong>12th CBSE</strong> – St. Mary’s Convent, Dewas – 72%</li>
+    <li><strong>10th CBSE</strong> – St. Mary’s Convent, Dewas – 80%</li>
+  </ul>
 </section>
 
 <section id="contact">
@@ -100,6 +129,7 @@
     <div>
       <p>Email: <strong><a href="mailto:mv270302@gmail.com" style="color: #38bdf8;">mv270302@gmail.com</a></strong></p>
       <p>Phone: <strong>+91 7828479672</strong></p>
+      <p>Languages: <strong>English, Hindi</strong></p>
     </div>
   </div>
 </section>
